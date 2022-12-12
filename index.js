@@ -7,3 +7,6 @@ const salt = bcrypt.genSaltSync(saltRounds);
 const hash = bcrypt.hashSync(myPlaintextPassword, salt);
 const re = bcrypt.compareSync(someOtherPlaintextPassword, hash); // true
 console.log(re);
+
+
+//test comment 
